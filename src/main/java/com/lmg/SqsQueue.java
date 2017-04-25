@@ -18,5 +18,11 @@ public class SqsQueue {
     public String getUrl() {
         return url;
     }	
+    public String getCompleteName()
+    {
+    	return url + name;
+    }
+    
+    
 	
 }
